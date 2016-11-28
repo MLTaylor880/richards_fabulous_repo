@@ -1,8 +1,9 @@
 class Pet(object):
 
-    def __init__(self, name, type):
+    def __init__(self, name, type, gender='Male'):
         self.name = name
         self.type = type
+        self.gender = gender
         self.hunger = 0
         self.boredom = 10
 
