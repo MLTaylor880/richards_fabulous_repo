@@ -18,4 +18,12 @@ if __name__ == '__main__':
         spritz.play()
     spritz.wants_to_play()
     spritz.wants_to_eat()
-    print 'Bye %s, you have been an awesome %s!' % (spritz.name, spritz.type)
+    did_i_like_the_pet = raw_input('How do you feel about the pet on a scale of 1-10? ')
+    try:
+        pet_rating = int(did_i_like_this_pet)
+        if pet_rating < 5:
+            print 'You may need a new pet!'
+        else:
+            print 'Your pet is amazing go you!'
+    except:
+        print 'You should have given me a number instead!'
