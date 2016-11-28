@@ -1,7 +1,7 @@
 from pets.pets import Pet
 
 if __name__ == '__main__':
-    print 'This is the story of my pet!'
+    print 'This is the story of my pet! It\'s not a great one but it\'ll do, you know?'
     name_of_pet = raw_input('What is the name of my pet? ')
     type_of_pet = raw_input('What is the type of animal I have? ')
     gender_of_pet = raw_input('What is the gender of this pet? ')
