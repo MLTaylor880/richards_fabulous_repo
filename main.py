@@ -4,7 +4,6 @@ if __name__ == '__main__':
     print 'This is the story of my pet!'
     spritz = Pet('Spritz', 'cat')
     print 'My pet is %s, a very happy %s' % (spritz.name, spritz.type)
-    print 'Let\'s see how %s is doing!' % (spritz.pronoun())
     spritz.wants_to_play()
     spritz.wants_to_eat()
     print 'Oh no! We should feed and play with %s!' % spritz.name
