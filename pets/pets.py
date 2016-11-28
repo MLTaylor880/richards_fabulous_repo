@@ -7,6 +7,12 @@ class Pet(object):
         self.hunger = 0
         self.boredom = 10
 
+    def pronoun(self):
+        if self.gender == 'Male': 
+            return 'he'
+        else:
+            return 'she'
+
     def feed(self):
         if self.hunger < 5:
             print '%s eats some food!' % self.name
