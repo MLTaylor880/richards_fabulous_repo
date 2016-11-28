@@ -13,7 +13,6 @@ if __name__ == '__main__':
     amount_to_play = raw_input('How many times do you want to play with %s? ' % spritz.name)
     for x in range(0, int(amount_to_play)):
         spritz.play()
-    print 'How is %s doing now?' % spritz.name
     spritz.wants_to_play()
     spritz.wants_to_eat()
     print 'Bye %s, you have been an awesome %s!' % (spritz.name, spritz.type)
