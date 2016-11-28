@@ -1,8 +1,11 @@
 from pets.pets import Pet
 
 if __name__ == '__main__':
-    print 'This is the story of my pet! It might not be a great one but it is a story nonetheless'
-    spritz = Pet('Spritz', 'cat')
+    print 'This is the story of my pet!'
+    name_of_pet = raw_input('What is the name of my pet? ')
+    type_of_pet = raw_input('What is the type of animal I have? ')
+    gender_of_pet = raw_input('What is the gender of this pet? ')
+    spritz = Pet(name_of_pet, type_of_pet, gender_of_pet)
     print 'My pet is %s, a very happy %s' % (spritz.name, spritz.type)
     spritz.wants_to_play()
     spritz.wants_to_eat()
